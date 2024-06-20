@@ -1,0 +1,53 @@
+.tabela {
+    background-color: green;
+    font-size: 20px;
+
+}
+/* sempre começa o css zerando as coisas (usa astericos e chave */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.classificacao__ultimos_jogos {
+    border-radius: 50%;
+    display: inline-block;
+    height: 7px;
+    margin-left: 4px;
+    overflow: hidden;
+    width: 7px;
+}
+
+
+tr{
+    background-color: gray;
+}
+body{
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.tabela, th, td{
+    border-collapse: collapse; 
+    padding: 10px;
+    /* deixa o texto centralizado */
+    text-align: center; 
+    border: 2px solid rgb(160 160 160);
+    
+}
+.{
+    text-align: center;
+    border-top: green;
+}
+img {
+    width: 30px;
+}
+/* muda fonte, cor, tamanho do titulo */
+th{
+    font-size: 20px;
+    font-style: 20px;
+
+}
